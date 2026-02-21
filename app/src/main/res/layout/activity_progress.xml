@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="←"
+            android:textSize="24sp"
+            android:background="@color/primary_blue"
+            android:textColor="@color/white"
+            android:padding="0dp" />
+
+        <TextView
+            android:id="@+id/className"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Progress"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_blue"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Progress Info Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/progressInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading progress..."
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:lineSpacingMultiplier="1.6" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

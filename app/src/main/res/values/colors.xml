@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#4A90E2</color>
+    <color name="primary_dark_blue">#2C5AA0</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_green">#6BCB77</color>
+    <color name="accent_orange">#FF9D5C</color>
+
+    <!-- Background Colors -->
+    <color name="light_gray">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+
+    <!-- Subject Colors -->
+    <color name="english_color">#FF6B9D</color>
+    <color name="maths_color">#FFA500</color>
+    <color name="hindi_color">#FF6348</color>
+    <color name="marathi_color">#9B59B6</color>
+    <color name="gk_color">#1ABC9C</color>
+
+    <!-- Dashboard Card Colors -->
+    <color name="syllabus_bg">#FFD93D</color>
+    <color name="quiz_bg">#6BCB77</color>
+    <color name="record_bg">#FF6B9D</color>
+    <color name="progress_bg">#4D96FF</color>
+    <color name="user_bg">#FF9D5C</color>
+
+    <!-- Other colors you might already have -->
+    <color name="purple_500">#8F00FF</color>
+    <color name="teal_500">#009688</color>
+    <color name="orange">#FF9800</color>
+    <color name="green">#4CAF50</color>
+</resources>

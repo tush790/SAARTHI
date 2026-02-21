@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- App Logo/Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📚 Inclusive Edu"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center" />
+
+    <!-- Login Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginBottom="24dp"
+        android:textSize="16sp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/button_rounded_blue"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Register Link -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary" />
+
+        <TextView
+            android:id="@+id/registerLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_blue" />
+    </LinearLayout>
+
+</LinearLayout>
